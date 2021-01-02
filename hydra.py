@@ -1,9 +1,6 @@
 # hydra.py
-
 import tkinter as tk
-
-class Hydra():
-	
+class Hydra():	
 	def __init__(self):
 		Window = self.Window = tk.Tk()
 		Window.title("Hydra Virus")
@@ -15,7 +12,5 @@ class Hydra():
 				a = Hydra()
 
 		Window.protocol("WM_DELETE_WINDOW", on_close)
-
-
 hydra = Hydra()
 hydra.Window.mainloop()
